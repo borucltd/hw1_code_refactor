@@ -189,12 +189,16 @@ p {
 /* FOOTER SECTION */
 
 .footer {
-    padding: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    padding: 3vh;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    font-size: 3vh;
 }
 
-.footer {
-    font-size: 16px;
+.footer-p {
+    font-size: 2vh;
 }
