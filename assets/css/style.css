@@ -1,6 +1,7 @@
 /* GLOBAL SITE STYLES */
 
 * {
+    /* padding and border will be included in width and height */
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
@@ -8,14 +9,6 @@
 
 body {
     background-color: #d9dcd6;
-}
-
-
-main {
-    width: auto;
-    display: inline-block;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 /* TEXT STYLES */
@@ -32,46 +25,54 @@ p {
 /* HEADER SECTION*/
 
 .header {
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    width: 80%;
+    height: 10vh;
+    padding: 3vh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    display: table;  
 }
 
-.header-h1 {
-    display: inline-block;
-    font-size: 48px;
+.header-left {
+    float: left;
+    width: 20%;
+    font-size: 8vh;
 }
+
 .header-seo {
     color: #d9dcd6;
 }
 
-.header-nav {
-    padding-top: 15px;
-    margin-right: 20px;
+.header-right {
     float: right;
+    width: 70%;
+    font-size: 3vh; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    padding-top: 2vh;
+    justify-content: right;
 }
 
 .header-nav-ul {
-    list-style-type: none;
+        list-style-type: none;
+        display: inline;
 }
 
 .header-nav-ul-li {
-    display: inline-block;
-    margin-left: 25px;
+    margin-left: 24px;
+    display: inline;
 }
 
 /* BREAK SECTION */
 
 .break {
-    margin-left: 20px;
-    margin-right: 20px;
-    height: 400px;
-    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 20vh;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
